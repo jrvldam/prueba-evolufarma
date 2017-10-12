@@ -1,0 +1,20 @@
+{
+  "name": "campaigns",
+  "version": "1.0.0",
+  "description": "Micro-service for email campaigns",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "rodrigo vargas",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.12.1",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
